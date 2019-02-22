@@ -68,7 +68,7 @@ class ActivityPage: UITableViewController {
     share.findObjectsInBackgroundWithBlock { results, error in
       if error != nil || results == nil {
         print(error)
-        print("this dude dose not share")
+        print("this person does not share")
         return
       }
       
