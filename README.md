@@ -5,6 +5,10 @@ A social media based around finding people that like the same songs you enjoy.
 ## Project Structure
 * The UI was mostly built programmaticly.
 
+* Integrates Spotify and Soundcloud API. Implements Spotify OAuth login.
+
+* Phone Number Based Signin
+
 * Usage of reactive programming to emulate React
 ``` swift
 // Swaybeat/SongSearchPage.swiftt
@@ -47,3 +51,6 @@ class URLPlayer: NSObject {
   func play(url: NSURL) {
 ```
 
+* Crashlytics
+
+* Alamofire
